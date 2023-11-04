@@ -14,12 +14,12 @@ int main() {
     int sum = 0;
     int userNumber;
     // Created a variable for if the user inputs
-    //a float instead of a whole number.
+    // a float instead of a whole number.
     float userNumberFloat;
     std::string userNumberString;
 
     // Explaining my program to the user.
-    std::cout << 
+    std::cout <<
     "This program will calculate the sum of the number that you enter.\n";
 
     // Getting user input.
@@ -46,7 +46,8 @@ int main() {
             // Else statement for valid input.
         } else {
             while (counter <= userNumber) {
-                std::cout << "Tracking " << counter << " times through the loop." << std::endl;
+                std::cout << "Tracking " <<
+                counter << " times through the loop.";
 
                 // Calculating the sum of the user's number.
                 sum = sum + counter;
